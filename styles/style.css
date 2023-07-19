@@ -120,8 +120,6 @@ body
     gap: .5em;
 }
 
-/* customization part  */
-
 .nav-menu-item
 {
     font-size: 14px;
@@ -218,6 +216,10 @@ body
     gap: 1em;
 }
 
+.gamer-banner-text-para
+{
+    text-align: end;
+}
 .gamer-banner-img
 {
     width: 60%;
@@ -255,6 +257,7 @@ body
     flex-direction: column;
     align-items: start;
     justify-self: start;
+    gap: 2em;
 }
 
 
@@ -312,6 +315,7 @@ body
 {
     opacity: 100%;
     border-radius: 10px;
+    
 }
 
 
@@ -328,6 +332,8 @@ body
 }
 .featured-card-individual:hover .black-box
 {
+    border: 4px solid #F948B2;
+    border-radius: 10px;
     display:unset;
     position: absolute;
     top: 0px;
@@ -476,5 +482,922 @@ body
     border: 2px solid #F948B2;
     border-radius: 50px;
     color: #F948B2;
+
+}
+
+/* footer  */
+
+.footer
+{
+    background-color: #0B0223;
+}
+
+.footer-body
+{
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5em;
+}
+
+
+
+.footer-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: white;
+}
+.footer-1 img
+{
+    width: 30%;
+}
+
+
+.footer-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2em;
+    color: white;
+    
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.footer-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.7em;
+}
+
+.footer-3 i
+{
+    transform: scale(2);
+}
+
+.last-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.4em;
+    color: rgb(109, 95, 212);
+    
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.footer-5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: rgb(54, 46, 112);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+/* responsive mobile  */
+
+@media screen and (max-width:767px)
+{
+
+   
+    /* header  */
+    .header
+    {
+        box-shadow: unset;
+
+    }
+   
+    /* navbar  */
+    .nav
+    {
+        margin-top: 50px;
+        padding: 0;
+    }
+    .nav-bar
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        flex-direction: column;
+    
+    }
+    .nav-menu
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        
+    }
+    .nav-menu-p1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+    }
+
+    /* banner  */
+    .banner
+    {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        background-image: unset;
+        padding: 0 50px;
+        
+    }
+    .banner-img
+    {
+        width: 100%;
+    }
+
+    .banner-text
+    {
+        
+        background-image: url(../images/Group\ 14.png);
+        padding: 60px;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 1em;
+    }
+
+    /* gamer banner start  */
+.gamer-banner
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+.gamer-banner-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.gamer-banner-text-para
+{
+    text-align: center;
+
+}
+.gamer-banner-img
+{
+    width: 100%;
+}    
+
+
+        /* featured games  */
+
+        .featured
+        {
+            padding: 0 50px;
+            margin-top: 60px;
+        }
+.featured-text
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: .5em;
+}
+
+.featured-text h1
+{
+    font-size: 28px !important;
+}
+.featured-text h1 span
+{
+    font-size: 28px !important;
+}
+.featured-text p
+{
+    font-size: 12px;
+}
+
+.featured-cards
+{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+    gap: 1em;
+    margin-top: 35px;
+}
+
+.featured-card
+{
+    margin-top: 30px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.featured-card-individual:hover .icon
+{
+    visibility: unset;
+    position: absolute;
+    top: 50%;
+    left:45%;
+    transform: scale(1.8);
+}
+
+/* play section  */
+
+.play
+{
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.play-para
+{
+    margin-top: 15px;
+
+
+}
+.play-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .4em;
+    text-align: center;
+}
+.play-img-div
+{
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.play-img-outer
+{
+    width: 70%;
+}
+
+.play-img-inner
+{
+    position: absolute;
+    bottom: -50px;
+    left: 30px;
+    width: 40%;
+}
+
+/* play2 section  */
+
+.play2
+{
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.play2-text
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.play2-para
+{
+    margin-top: 15px;
+
+
+}
+
+.play2-img-div
+{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.play2-img-outer
+{
+    width: 100%;
+}
+
+.play2-img-inner
+{
+    position: absolute;
+    bottom: -50px;
+    left: 80%;
+    width: 40%;
+}
+
+/* mini icon section  */
+
+
+.mini2
+{
+    padding: 0 30px;
+    row-gap:2em ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.mini2-icon
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    padding: 2px 1px;
+}
+.mini2-icon p
+{
+    font-size: 10px !important;
+}
+
+.mini2-icon img
+{
+    width: 22%;
+}
+
+.mini2-icon p 
+{
+    font-weight: 600;
+}
+
+
+/* footer  */
+
+.footer
+{
+    margin-top: 50px;
+    background-color: #0B0223;
+}
+
+.footer-body
+{
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
+
+
+
+.footer-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: white;
+}
+.footer-1 img
+{
+    width: 30%;
+}
+
+
+.footer-2
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2em;
+    color: white;
+    
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.footer-3
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4.2em;
+}
+
+.footer-3 i
+{
+    transform: scale(2);
+}
+
+.last-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer-4
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.8em;
+    color: rgb(109, 95, 212); 
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.footer-5
+{
+    text-align: center;
+    width: 80%;
+    gap: 1em;
+    color: rgb(54, 46, 112);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+}
+
+
+/* tablet responsive  */
+@media screen and (min-width:768px) and (max-width:1023px)
+{
+    body
+{
+    padding: 50px;
+}
+
+    /* header  */
+    .header
+    {
+        box-shadow: unset;
+
+    }
+   
+    /* navbar  */
+    .nav
+    {
+        padding: 0;
+    }
+    .nav-bar
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-logo
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        flex-direction: row;
+    
+    }
+    .nav-menu
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        
+    }
+    .nav-menu-p1
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+    }
+
+    /* banner  */
+    .banner
+    {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        background-image: unset;
+        
+    }
+    .banner-img
+    {
+        width: 100%;
+    }
+
+    .banner-text
+    {
+        
+        background-image: url(../images/Group\ 14.png);
+        padding: 60px;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 1em;
+    }
+
+    /* gamer banner start  */
+.gamer-banner
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.gamer-banner-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.gamer-banner-text-para
+{
+    text-align: center;
+
+}
+.gamer-banner-img
+{
+    width: 100%;
+}    
+
+
+        /* featured games  */
+
+        .featured
+        {
+            padding: 0;
+            margin-top: 60px;
+        }
+.featured-text
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: .5em;
+}
+
+.featured-text h1
+{
+    font-size: 28px !important;
+}
+.featured-text h1 span
+{
+    font-size: 28px !important;
+}
+.featured-text p
+{
+    font-size: 12px;
+}
+
+.featured-cards
+{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    gap: 1em;
+    margin-top: 35px;
+}
+
+.featured-card
+{
+    margin-top: 30px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.featured-card-individual:hover .icon
+{
+    visibility: unset;
+    position: absolute;
+    top: 50%;
+    left:45%;
+    transform: scale(1.8);
+}
+
+/* play section  */
+
+.play
+{
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.play-para
+{
+    margin-top: 15px;
+
+
+}
+.play-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .4em;
+    text-align: center;
+}
+.play-img-div
+{
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.play-img-outer
+{
+    width: 70%;
+}
+
+.play-img-inner
+{
+    position: absolute;
+    bottom: -50px;
+    left: 30px;
+    width: 40%;
+}
+
+/* play2 section  */
+
+.play2
+{
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.play2-text
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.play2-para
+{
+    margin-top: 15px;
+
+
+}
+
+.play2-img-div
+{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.play2-img-outer
+{
+    width: 100%;
+}
+
+.play2-img-inner
+{
+    position: absolute;
+    bottom: -50px;
+    left: 80%;
+    width: 40%;
+}
+
+/* mini icon section  */
+
+
+.mini2
+{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 1rem;
+
+    margin-bottom: 100px;
+
+}
+
+.mini2-icon
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    padding: 2px 1px;
+}
+.mini2-icon p
+{
+    font-size: 15px !important;
+}
+
+.mini2-icon img
+{
+    width: 22%;
+}
+
+.mini2-icon p 
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* footer  */
+
+.footer
+{
+    margin-top: 50px;
+    background-color: #0B0223;
+}
+
+.footer-body
+{
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
+
+
+
+.footer-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: white;
+}
+.footer-1 img
+{
+    width: 30%;
+}
+
+
+.footer-2
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2em;
+    color: white;
+    
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.footer-3
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4.2em;
+}
+
+.footer-3 i
+{
+    transform: scale(2);
+}
+
+.last-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer-4
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.8em;
+    color: rgb(109, 95, 212); 
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.footer-5
+{
+    text-align: center;
+    width: 80%;
+    gap: 1em;
+    color: rgb(54, 46, 112);
+    font-size: 12px;
+    font-weight: 500;
+}
 
 }
