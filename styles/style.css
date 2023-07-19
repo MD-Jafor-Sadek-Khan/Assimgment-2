@@ -1,0 +1,89 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Utilities  */
+*{
+    margin: 0;
+}
+body 
+{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container
+{
+   margin: 20px 180px; 
+}
+
+
+/* navbar  */
+
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.nav-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+.nav-logo-img
+{
+    width: 100%;
+}
+
+.nav-logo-name
+{
+    color: rgb(245, 62, 154);
+}
+.nav-menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    
+}
+
+.nav-menu-p1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+.nav-menu-p2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.nav-menu-icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+/* customization part  */
+
+.nav-manu-item
+{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
