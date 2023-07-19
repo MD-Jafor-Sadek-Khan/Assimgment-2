@@ -674,7 +674,7 @@ body
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    padding: 0 50px;
+    padding: 0 20px;
 }
 .gamer-banner-text
 {
@@ -688,8 +688,11 @@ body
 .gamer-banner-text-para
 {
     text-align: center;
+    font-size: 13px !important;
 
 }
+
+
 .gamer-banner-img
 {
     width: 100%;
@@ -700,7 +703,7 @@ body
 
         .featured
         {
-            padding: 0 50px;
+            padding: 0 20px;
             margin-top: 60px;
         }
 .featured-text
