@@ -27,6 +27,21 @@ body
 }
 
 
+.para
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.section-title
+{
+    font-size: 34px;
+    font-weight: 700;
+    color: black;
+}
+
+
 
 
 /* navbar  */
@@ -183,4 +198,194 @@ body
     align-items: center;
     justify-content: center;
     gap: 1em;
+}
+
+
+/* gamer banner start  */
+.gamer-banner
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamer-banner-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1em;
+}
+
+.gamer-banner-img
+{
+    width: 60%;
+}
+
+
+/* gamer banner ends */
+
+
+
+/* featured games  */
+
+.featured-text
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: .5em;
+}
+
+.featured-cards
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    margin-top: 35px;
+}
+
+.featured-card
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-self: start;
+}
+
+
+.featured-card-individual
+{
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.featured-card-img {
+    width: 100%;
+  }
+
+.text
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left:35%;
+    font-size: 14px;
+    color: #F948B2;
+    font-weight: 700;
+    
+}
+
+.black-box
+{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: black;
+    background-size: cover ;
+}
+
+.icon
+{
+    visibility: hidden;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: scale(2);
+}
+
+
+/* hovers  */
+
+
+.featured-card-individual:hover .featured-card-img
+{
+    opacity: 100%;
+    border-radius: 10px;
+}
+
+
+
+.featured-card-individual:hover .text
+{
+    display:unset;
+    position: absolute;
+    top: 60%;
+    left:36%;
+    font-size: 14px;
+    color: #F948B2;
+    font-weight: 700;
+}
+.featured-card-individual:hover .black-box
+{
+    display:unset;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 -5px 1px white,
+    5px 5px 1px white;
+}
+
+.featured-card-individual:hover .icon
+{
+    visibility: unset;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: scale(1.8);
+}
+
+
+
+/* play section  */
+
+.play
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: .4em;
+    text-align: right;
+}
+
+.play-img-div
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.play-img-outer
+{
+    width: 70%;
+}
+
+.play-img-inner
+{
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    width: 40%;
 }
