@@ -17,7 +17,7 @@ body
 
 .btn-struct
 {
-    padding: 12px 30px;
+    padding: 14px 25px;
     border-radius: 30px;
     font-size: 14px;
     font-weight: 700;
@@ -25,6 +25,7 @@ body
     border: 1px solid transparent;
     text-transform: uppercase;
 }
+
 
 
 
@@ -120,6 +121,14 @@ body
 {
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-img
+{
+    width: 50%;
 }
 
 .banner-text
@@ -128,7 +137,7 @@ body
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    gap: .5em;
+    gap: 1em;
 }
 
 .banner-title1
@@ -151,7 +160,7 @@ body
     flex-direction: column;
     justify-content: space-between ;
     align-items: start;
-    gap: .4em;
+    gap: 1em;
 }
 .banner-item
 {
@@ -166,4 +175,12 @@ body
     font-weight: 500;
     font-size: 14px;
     color: #626262;
+}
+
+.banner-btns
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
